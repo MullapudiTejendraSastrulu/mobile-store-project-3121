@@ -12,7 +12,7 @@ import com.srgec.mobile.model.User;
 import com.srgec.mobile.service.UserService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://mobile-store-project.vercel.app")
 public class UserController {
     private final UserService uService;
     public UserController(UserService uService) {

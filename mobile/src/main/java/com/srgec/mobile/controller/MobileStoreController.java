@@ -15,7 +15,7 @@ import com.srgec.mobile.model.MobileStore;
 import com.srgec.mobile.service.MobileStoreService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://mobile-store-project.vercel.app")
 public class MobileStoreController {
     private final MobileStoreService mService;
 
